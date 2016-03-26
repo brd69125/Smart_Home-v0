@@ -36,7 +36,7 @@ and open the template in the editor.
 
                     //echo page
                     $nav->displayMenu();
-
+                echo "<button onclick='deconzConnect();'>Click here for rest api</button>";
             }else{
                 echo Authentication::getForm();
                 die();
